@@ -1,0 +1,17 @@
+@using MovieApp.Models;
+@page "/movies"
+@using MovieApp.Clients;
+@inject MovieClient MovieClient;
+
+<PageTitle>
+    Movies 
+</PageTitle>
+
+<p>@MovieResponse</p>
+
+@code {
+    private MovieResponse? movieResponse = null;
+    protected override async Task OnInitializedAsync() {
+        movieResponse = await MovieClient.GetMovieResponse();
+    }
+}
