@@ -1,13 +1,18 @@
 @using MovieApp.Models;
 @using MovieApp.Clients;
 @inject MovieClient MovieClient;
+@using MovieApp.Shared.Components;
 @page "/movies"
 
 <PageTitle>
     MovieRatings
 </PageTitle>
 
+<Header />
+
 <p>@movieResponse</p>
+
+<MovieImages imgUrl="@movieResponse.poster_path" />
 
 @code {
     private MovieResponse? movieResponse = null;
