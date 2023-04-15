@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RuoOy27xvsyg8Y3REqjWyMB9oJaUO2iX5gz6JuE/CfY=",
+  "Hash": "0V6bW6HPDQg1HQWLFcnqMI+2ub+g2IhdpaSieglbshE=",
   "Source": "MovieApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -457,6 +457,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/lib/net7.0/Microsoft.Extensions.FileSystemGlobbing.dll"
+    },
+    {
+      "Identity": "/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll",
+      "SourceId": "MovieApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/home/gitpod/.nuget/packages/microsoft.extensions.http/7.0.0/lib/net7.0/Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Logging.Abstractions.dll",
@@ -6696,6 +6713,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/_framework/System.Linq.dll"
+    },
+    {
+      "Identity": "/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/build-gz/xV7dP+w3.gz",
+      "SourceId": "MovieApp",
+      "SourceType": "Computed",
+      "ContentRoot": "/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/build-gz/y6QHqQQ3.gz",
