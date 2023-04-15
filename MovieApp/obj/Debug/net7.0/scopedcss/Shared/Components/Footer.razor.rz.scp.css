@@ -3,6 +3,7 @@
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     min-height: 100px;
 }
 
@@ -37,6 +38,7 @@ ul[b-6y9f5w9828] {
 
 a[b-6y9f5w9828] {
     text-decoration: none;
+    color: #fff;
 }
 
 .copyright-footer[b-6y9f5w9828] {

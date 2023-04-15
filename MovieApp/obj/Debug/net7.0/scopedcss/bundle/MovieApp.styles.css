@@ -1,9 +1,43 @@
+/* /Shared/Components/Categories.razor.rz.scp.css */
+
+.container[b-33z3v26j29] {
+    height: 300px;
+    background-color: #E46B6B;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mini-boxes[b-33z3v26j29] {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-boxes h3[b-33z3v26j29] {
+    color: #E46B6B;
+    font-size: 30px;
+}
+
+a[b-33z3v26j29] {
+    text-decoration: none;
+    color: #E46B6B;
+}
 /* /Shared/Components/Footer.razor.rz.scp.css */
 .navbar-footer[b-6y9f5w9828] {
     background-color: #4A4949;
     padding: 10px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     min-height: 100px;
 }
 
@@ -38,6 +72,7 @@ ul[b-6y9f5w9828] {
 
 a[b-6y9f5w9828] {
     text-decoration: none;
+    color: #fff;
 }
 
 .copyright-footer[b-6y9f5w9828] {
@@ -105,6 +140,22 @@ a[b-6y9f5w9828] {
     height: 35px;
     float: right;
     border-radius: 10px;
+}
+/* /Shared/Components/WelcomeArea.razor.rz.scp.css */
+
+.welcome-area[b-edfoh2ohzz] {
+    background-color: #E46B6B;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-title[b-edfoh2ohzz] {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-ccqn4xzfxg] {

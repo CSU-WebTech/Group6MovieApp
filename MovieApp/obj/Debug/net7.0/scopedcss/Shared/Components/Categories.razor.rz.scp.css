@@ -1,0 +1,32 @@
+
+.container[b-33z3v26j29] {
+    height: 300px;
+    background-color: #E46B6B;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mini-boxes[b-33z3v26j29] {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-boxes h3[b-33z3v26j29] {
+    color: #E46B6B;
+    font-size: 30px;
+}
+
+a[b-33z3v26j29] {
+    text-decoration: none;
+    color: #E46B6B;
+}

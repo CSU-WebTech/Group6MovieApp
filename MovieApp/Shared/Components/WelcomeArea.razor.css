@@ -1,0 +1,15 @@
+
+.welcome-area {
+    background-color: #E46B6B;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-title {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
