@@ -199,13 +199,13 @@
       "mscorlib.dll": "sha256-pO\/W4w\/X+UjVMUMaxE5tYTQ0tILP+hmMu0zi0MSVBLc=",
       "netstandard.dll": "sha256-kj5cBXzwPYC+HD+P8+6VybY34JtEzjXjMIHXEI3hIiM=",
       "System.Private.CoreLib.dll": "sha256-Awk1lCiFfH7r9AAZfBtGqS8rhv6UJ5lUu3yF6HDH3tQ=",
-      "MovieApp.dll": "sha256-3KK0veys0jU+\/0EGEKOFtEVlEKXSgeDtjHT80YrRTxY="
+      "MovieApp.dll": "sha256-VkUENDjoXlnq\/F8qi3XdaLnhI6dgpxNsBBmdP9IaVHQ="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "MovieApp.pdb": "sha256-Izhrm9Q8gphkKo5sNn612c6k+QNjQwcJ0mlXN41LbRo="
+      "MovieApp.pdb": "sha256-Ot+5ZRaip0ib\/darBWJeM7GwJd7ZyCcmyuSE1iuL+hw="
     },
     "runtime": {
       "dotnet.7.0.0.218ek1t196.js": "sha256-2jNLve8W0sST0LAebgAc1IwSnGhkbjOKO8QPWWiJssI=",

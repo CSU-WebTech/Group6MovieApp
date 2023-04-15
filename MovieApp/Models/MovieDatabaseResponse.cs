@@ -6,11 +6,8 @@ namespace MovieApp.Models;
 
 public record MovieResponse {
 
-    [JsonPropertyName("page")]
-    public int page { get; init; }
-
     // [JsonPropertyName("results")]
-    // public string[] results { get; init; }
+    // public string results { get; init; }
 
     [JsonPropertyName("poster_path")]
     public string poster_path { get; init; }
@@ -27,17 +24,11 @@ public record MovieResponse {
     [JsonPropertyName("backdrop_path")]
     public string backdrop_path { get; init; }
 
-    [JsonPropertyName("vote_count")]
-    public int vote_count { get; init; }
-
     [JsonPropertyName("vote_average")]
-    public int vote_average { get; init; }
+    public double vote_average { get; init; }
 
     [JsonPropertyName("total_results")]
     public int total_results { get; init; }
-
-    [JsonPropertyName("total_pages")]
-    public int total_pages { get; init; }
 
 }
 

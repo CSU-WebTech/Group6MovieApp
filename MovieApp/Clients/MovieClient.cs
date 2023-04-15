@@ -1,5 +1,6 @@
 using System.Net.Http.Json;
 using MovieApp.Models;
+using Microsoft.AspNetCore.Components;
 
 namespace MovieApp.Clients;
 
