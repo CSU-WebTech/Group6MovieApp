@@ -39,6 +39,7 @@ a[b-33z3v26j29] {
     justify-content: space-between;
     align-items: center;
     min-height: 100px;
+    padding: 0px 50px;
 }
 
 .navbar-brand[b-6y9f5w9828] {
@@ -91,7 +92,8 @@ a[b-6y9f5w9828] {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    min-height: 100px;
+    height: 100px;
+    padding: 0px 50px;
 }
 
 .navbar-brand[b-9rzjob31h4] {
