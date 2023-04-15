@@ -831,3 +831,4 @@
 /workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/Microsoft.Extensions.Http.dll
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/build-gz/xV7dP+w3.gz
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Header.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Footer.razor.rz.scp.css

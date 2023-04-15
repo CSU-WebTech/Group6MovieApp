@@ -1,0 +1,53 @@
+.navbar-footer {
+    background-color: #4A4949;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+#title-ratings-footer {
+    color: #E46B6B;
+    font-size: 24px;
+}
+
+#search-bar-footer {
+    background-color: #FFEAEA;
+    color: #000;
+    width: 800px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    border-radius: 10px;
+}
+
+.footer-list {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright-footer {
+    display: flex;
+    background: #4A4949;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+}
