@@ -1,0 +1,43 @@
+@page "/popular-movies"
+@inject HttpClient httpClient
+
+<h1>Movies</h1>
+
+@if (movies == null)
+{
+    <p>Loading movies...</p>
+    } else
+        {
+        <div class="row">
+            @foreach (var movie in movies.Results)
+            {
+                <div class="col-md-4 mb-4">
+                    <img src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" class="img-fluid" />
+                    <h4>@movie.Title</h4>
+                    <p>@movie.Overview</p>
+                </div>
+            }
+        </div>
+}
+
+@code {
+    private MoviesResponse movies;
+
+    protected override async Task OnInitializedAsync()
+    {
+        movies = await httpClient.GetFromJsonAsync<MoviesResponse>("https://api.themoviedb.org/3/movie/popular?api_key=3d16f1e91053992401099962ac5650c9&language=en-US&page=1");
+    }
+
+    public class MoviesResponse
+    {
+        public int Page { get; set; }
+        public List<Movie> Results { get; set; }
+    }
+
+    public class Movie
+    {
+        public string Title { get; set; }
+        public string Overview { get; set; }
+        public string PosterPath { get; set; }
+    }
+}

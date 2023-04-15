@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/workspace/Group6MovieApp/MovieApp/Pages/MoviesNew.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzTmV3LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/MovieImages.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTW92aWVJbWFnZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
