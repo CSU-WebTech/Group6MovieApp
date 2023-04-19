@@ -1,4 +1,5 @@
 @page "/popular-movies"
+@using System.Text.Json.Serialization;
 @inject HttpClient httpClient
 
 <h1>Popular Movies</h1>
@@ -13,6 +14,7 @@
             {
                 <div class="col-md-4 mb-4">
                     <img src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" class="img-fluid" />
+
                     <h4>@movie.Title</h4>
                     <p>@movie.Overview</p>
                 </div>
@@ -39,5 +41,9 @@
         public string Title { get; set; }
         public string Overview { get; set; }
         public string PosterPath { get; set; }
+        [JsonPropertyName("poster_path")]
+        public string PosterPathAlt { 
+            set { PosterPath = value; } 
+        }
     }
 }
