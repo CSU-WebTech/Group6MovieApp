@@ -32,10 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzTmV3LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/Group6MovieApp/MovieApp/Shared/Components/MovieImages.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTW92aWVJbWFnZXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/workspace/Group6MovieApp/MovieApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -55,6 +51,10 @@ build_metadata.AdditionalFiles.CssScope = b-6y9f5w9828
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvSGVhZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-9rzjob31h4
+
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/MovieImages.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTW92aWVJbWFnZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-9hi8w09vi3
 
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/WelcomeArea.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvV2VsY29tZUFyZWEucmF6b3I=
