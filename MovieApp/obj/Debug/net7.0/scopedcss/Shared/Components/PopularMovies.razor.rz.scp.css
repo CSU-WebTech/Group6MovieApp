@@ -1,0 +1,15 @@
+
+*[b-zykhfs0xdy] {
+    background-color: #4A4949;
+}
+
+#movie-image-container[b-zykhfs0xdy] {
+    max-height: 700px;
+    overflow: hidden;
+}
+
+h3[b-zykhfs0xdy] {
+    font-family: Inter, sans-serif;
+    color: #FFF;
+    padding: 20px;
+}

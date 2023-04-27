@@ -1,9 +1,7 @@
 
-.container[b-33z3v26j29] {
+#container[b-33z3v26j29] {
     height: 300px;
     background-color: #E46B6B;
-    width: 100%;
-    margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

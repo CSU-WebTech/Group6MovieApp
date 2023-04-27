@@ -6,12 +6,12 @@
     <p>Loading movies...</p>
     } else
         {
-        <div class="container-fluid">
-            <div class="row">
+        <div id="movie-container" class="container-fluid">
+            <div id="movie-image-container" class="row">
                 <h3>Popular Movies</h3>
                 @foreach (var movie in movies.Results)
                 {
-                    <div class="col-md-3 mb-5">
+                    <div class="col-md-3 mb-5 movie-images">
                         <img src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" class="img-fluid rounded " />
                     </div>
                 }

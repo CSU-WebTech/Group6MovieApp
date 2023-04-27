@@ -48,9 +48,9 @@ build_metadata.AdditionalFiles.CssScope = b-9rzjob31h4
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-on6bid08w3
 
-[/workspace/Group6MovieApp/MovieApp/Shared/Components/MovieImages.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTW92aWVJbWFnZXMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-9hi8w09vi3
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/PopularMovies.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvUG9wdWxhck1vdmllcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-zykhfs0xdy
 
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/WelcomeArea.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvV2VsY29tZUFyZWEucmF6b3I=
