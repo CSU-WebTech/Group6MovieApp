@@ -17,5 +17,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/7.0.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">/home/gitpod/.nuget/packages/jquery/3.6.4</PkgjQuery>
   </PropertyGroup>
 </Project>

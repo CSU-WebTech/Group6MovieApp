@@ -184,7 +184,8 @@ main[b-on6bid08w3] {
 }
 
 img[b-zykhfs0xdy] {
-    height: 100%;;
+    height: 100%;
+    border-radius: 5px;
 }
 
 h3[b-zykhfs0xdy] {
@@ -197,6 +198,21 @@ h3[b-zykhfs0xdy] {
     width: 10%;
     transition: opacity .5s ease;
 }
+
+a[b-zykhfs0xdy] {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.carousel-item[b-zykhfs0xdy] {
+    transition: transform 2.6s ease-in-out;
+  }
+  
+  .carousel-fade .active.carousel-item-start[b-zykhfs0xdy],
+  .carousel-fade .active.carousel-item-end[b-zykhfs0xdy] {
+    transition: opacity 0s 2.6s;
+  }
+
 /* /Shared/Components/WelcomeArea.razor.rz.scp.css */
 
 .welcome-area[b-edfoh2ohzz] {

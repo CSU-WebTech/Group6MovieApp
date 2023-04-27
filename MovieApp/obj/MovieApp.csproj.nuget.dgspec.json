@@ -50,6 +50,10 @@
             "Microsoft.Extensions.Http": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.6.4, )"
             }
           },
           "imports": [

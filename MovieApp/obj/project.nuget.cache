@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "68nfGUTWZGfXuKwGSYxvw0oUXbHKqvzO2GRhGFp1RyX+KBX5FHHCN6VXNIAZyyP07wclq0d0d0rszLL7VquRMA==",
+  "dgSpecHash": "Y73yiqqt8z056f8mXNppCAXsXdmXggm0SX0AyzB6MXKRm6WAs90VGDri+naqrz0wxoceWB7RXgVRiz1RGNvUcw==",
   "success": true,
   "projectFilePath": "/workspace/Group6MovieApp/MovieApp/MovieApp.csproj",
   "expectedPackageFiles": [
+    "/home/gitpod/.nuget/packages/jquery/3.6.4/jquery.3.6.4.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.authorization/7.0.0/microsoft.aspnetcore.authorization.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components/7.0.0/microsoft.aspnetcore.components.7.0.0.nupkg.sha512",
     "/home/gitpod/.nuget/packages/microsoft.aspnetcore.components.analyzers/7.0.0/microsoft.aspnetcore.components.analyzers.7.0.0.nupkg.sha512",
