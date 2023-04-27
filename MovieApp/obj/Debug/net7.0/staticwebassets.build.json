@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0V6bW6HPDQg1HQWLFcnqMI+2ub+g2IhdpaSieglbshE=",
+  "Hash": "lEwysjtEywRtT19ZAzr669c1sxkiIGfM07W9hIcdiSw=",
   "Source": "MovieApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -7189,23 +7189,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
-    },
-    {
-      "Identity": "/workspace/Group6MovieApp/MovieApp/wwwroot/sample-data/weather.json",
-      "SourceId": "MovieApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/workspace/Group6MovieApp/MovieApp/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sample-data/weather.json"
     }
   ]
 }
