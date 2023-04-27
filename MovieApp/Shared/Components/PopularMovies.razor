@@ -6,17 +6,42 @@
     <p>Loading movies...</p>
     } else
         {
-        <div id="movie-container" class="container-fluid">
-            <div id="movie-image-container" class="row">
+            <div id="movie-image-container" class="row container-fluid">
                 <h3>Popular Movies</h3>
-                @foreach (var movie in movies.Results)
-                {
-                    <div class="col-md-3 mb-5 movie-images">
-                        <img src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" class="img-fluid rounded " />
+                    <div id="gallery" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    @for (int i = 0; i < 5; i++) {
+                                        <div class="col">
+                                            <img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" />
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                @for (int i = 6; i < 11; i++) {
+                                    <div class="col">
+                                        <img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" />
+                                    </div>
+                                }
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#gallery" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only"></span>
+                        </a>
                     </div>
                 }
             </div>
-        </div>
 }
 
 @code {

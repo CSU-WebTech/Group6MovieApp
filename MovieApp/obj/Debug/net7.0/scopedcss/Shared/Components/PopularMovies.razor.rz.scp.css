@@ -4,12 +4,28 @@
 }
 
 #movie-image-container[b-zykhfs0xdy] {
-    max-height: 700px;
-    overflow: hidden;
+    max-height: 600px;
+}
+
+.col[b-zykhfs0xdy] {
+    max-height: inherit;
+}
+
+.row[b-zykhfs0xdy] {
+    max-height: 400px;
+}
+
+img[b-zykhfs0xdy] {
+    height: 100%;;
 }
 
 h3[b-zykhfs0xdy] {
     font-family: Inter, sans-serif;
     color: #FFF;
     padding: 20px;
+}
+
+.carousel-control-next[b-zykhfs0xdy], .carousel-control-prev[b-zykhfs0xdy] {
+    width: 10%;
+    transition: opacity .5s ease;
 }

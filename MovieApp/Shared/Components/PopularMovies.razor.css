@@ -4,12 +4,28 @@
 }
 
 #movie-image-container {
-    max-height: 700px;
-    overflow: hidden;
+    max-height: 600px;
+}
+
+.col {
+    max-height: inherit;
+}
+
+.row {
+    max-height: 400px;
+}
+
+img {
+    height: 100%;;
 }
 
 h3 {
     font-family: Inter, sans-serif;
     color: #FFF;
     padding: 20px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+    transition: opacity .5s ease;
 }
