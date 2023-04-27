@@ -1,0 +1,30 @@
+
+#container[b-w2akfzxjxd] {
+    height: 300px;
+    background-color: #E46B6B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mini-boxes[b-w2akfzxjxd] {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-boxes h3[b-w2akfzxjxd] {
+    color: #E46B6B;
+    font-size: 30px;
+}
+
+a[b-w2akfzxjxd] {
+    text-decoration: none;
+    color: #E46B6B;
+}

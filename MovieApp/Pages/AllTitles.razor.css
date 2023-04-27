@@ -1,0 +1,20 @@
+
+#movie-image-container {
+    
+}
+
+* {
+    background-color: #4A4949;
+}
+
+h3 {
+    font-family: Inter, sans-serif;
+    color: #FFF;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+

@@ -27,21 +27,12 @@ h3[b-zykhfs0xdy] {
 }
 
 .carousel-control-next[b-zykhfs0xdy], .carousel-control-prev[b-zykhfs0xdy] {
-    width: 10%;
-    transition: opacity .5s ease;
+    width: 8%;
+    transition: opacity .5s ease-in !important;
 }
 
 a[b-zykhfs0xdy] {
     text-decoration: none;
     cursor: pointer;
 }
-
-.carousel-item[b-zykhfs0xdy] {
-    transition: transform 2.6s ease-in-out;
-  }
-  
-  .carousel-fade .active.carousel-item-start[b-zykhfs0xdy],
-  .carousel-fade .active.carousel-item-end[b-zykhfs0xdy] {
-    transition: opacity 0s 2.6s;
-  }
 

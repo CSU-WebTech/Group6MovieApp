@@ -831,9 +831,11 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Header.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Footer.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/WelcomeArea.razor.rz.scp.css
-/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Categories.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/MainLayout.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/PopularMovies.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Drama.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Thriller.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Kids.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/Categories.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Choices.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/AllTitles.razor.rz.scp.css

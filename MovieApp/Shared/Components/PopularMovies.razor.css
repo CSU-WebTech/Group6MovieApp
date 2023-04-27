@@ -27,21 +27,12 @@ h3 {
 }
 
 .carousel-control-next, .carousel-control-prev {
-    width: 10%;
-    transition: opacity .5s ease;
+    width: 8%;
+    transition: opacity .5s ease-in !important;
 }
 
 a {
     text-decoration: none;
     cursor: pointer;
 }
-
-.carousel-item {
-    transition: transform 2.6s ease-in-out;
-  }
-  
-  .carousel-fade .active.carousel-item-start,
-  .carousel-fade .active.carousel-item-end {
-    transition: opacity 0s 2.6s;
-  }
 

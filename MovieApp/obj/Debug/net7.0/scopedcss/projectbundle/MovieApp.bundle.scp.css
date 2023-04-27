@@ -1,6 +1,37 @@
-/* /Shared/Components/Categories.razor.rz.scp.css */
+/* /Pages/AllTitles.razor.rz.scp.css */
 
-#container[b-33z3v26j29] {
+*[b-v8zvq9mimm] {
+    background-color: #4A4949;
+}
+
+h3[b-v8zvq9mimm] {
+    font-family: Inter, sans-serif;
+    color: #FFF;
+    padding: 20px;
+}
+
+a[b-v8zvq9mimm] {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* /Pages/Categories.razor.rz.scp.css */
+.welcome-area[b-3kbmi6y6ef] {
+    background-color: #E46B6B;
+    height: 180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-title[b-3kbmi6y6ef] {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+#container[b-3kbmi6y6ef] {
     height: 300px;
     background-color: #E46B6B;
     display: flex;
@@ -9,7 +40,7 @@
     align-items: center;
 }
 
-.mini-boxes[b-33z3v26j29] {
+.mini-boxes[b-3kbmi6y6ef] {
     display: flex;
     background-color: #fff;
     border-radius: 10px;
@@ -20,12 +51,43 @@
     justify-content: center;
 }
 
-.mini-boxes h3[b-33z3v26j29] {
+.mini-boxes h3[b-3kbmi6y6ef] {
     color: #E46B6B;
     font-size: 30px;
 }
 
-a[b-33z3v26j29] {
+a[b-3kbmi6y6ef] {
+    text-decoration: none;
+    color: #E46B6B;
+}
+/* /Shared/Components/Choices.razor.rz.scp.css */
+
+#container[b-w2akfzxjxd] {
+    height: 300px;
+    background-color: #E46B6B;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mini-boxes[b-w2akfzxjxd] {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mini-boxes h3[b-w2akfzxjxd] {
+    color: #E46B6B;
+    font-size: 30px;
+}
+
+a[b-w2akfzxjxd] {
     text-decoration: none;
     color: #E46B6B;
 }
@@ -204,6 +266,7 @@ a[b-9rzjob31h4] {
 
 #movie-image-container[b-15xig12kl7] {
     max-height: 600px;
+    margin-bottom: 50px;
 }
 
 .col[b-15xig12kl7] {
@@ -292,23 +355,14 @@ h3[b-zykhfs0xdy] {
 }
 
 .carousel-control-next[b-zykhfs0xdy], .carousel-control-prev[b-zykhfs0xdy] {
-    width: 10%;
-    transition: opacity .5s ease;
+    width: 8%;
+    transition: opacity .5s ease-in !important;
 }
 
 a[b-zykhfs0xdy] {
     text-decoration: none;
     cursor: pointer;
 }
-
-.carousel-item[b-zykhfs0xdy] {
-    transition: transform 2.6s ease-in-out;
-  }
-  
-  .carousel-fade .active.carousel-item-start[b-zykhfs0xdy],
-  .carousel-fade .active.carousel-item-end[b-zykhfs0xdy] {
-    transition: opacity 0s 2.6s;
-  }
 
 /* /Shared/Components/Thriller.razor.rz.scp.css */
 

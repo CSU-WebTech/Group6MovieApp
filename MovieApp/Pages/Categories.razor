@@ -1,0 +1,31 @@
+@using MovieApp.Models;
+@using MovieApp.Clients;
+@inject MovieClient MovieClient;
+@using MovieApp.Shared.Components;
+@page "/categories";
+
+<Header />
+
+<div class="container-fluid welcome-area">
+    <h2 class="welcome-title">Find movie ratings and watch</h2>
+</div>
+<div id="container" class="container-fluid">
+    <a href="#"><div class="mini-boxes">
+        <h3>Popular Movies</h3>
+    </div></a>
+    <a href="#"><div class="mini-boxes">
+        <h3>Drama</h3>
+    </div></a>
+    <a href="#"><div class="mini-boxes">
+        <h3>Kids</h3>
+    </div></a>
+    <a href="#"><div class="mini-boxes">
+        <h3>Thriller</h3>
+    </div></a>
+</div>
+
+<Footer />
+
+@code {
+   
+}
