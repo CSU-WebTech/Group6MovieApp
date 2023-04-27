@@ -1,0 +1,47 @@
+
+*[b-15xig12kl7] {
+    background-color: #4A4949;
+}
+
+#movie-image-container[b-15xig12kl7] {
+    max-height: 600px;
+}
+
+.col[b-15xig12kl7] {
+    max-height: inherit;
+}
+
+.row[b-15xig12kl7] {
+    max-height: 400px;
+}
+
+img[b-15xig12kl7] {
+    height: 100%;
+    border-radius: 5px;
+}
+
+h3[b-15xig12kl7] {
+    font-family: Inter, sans-serif;
+    color: #FFF;
+    padding: 20px;
+}
+
+.carousel-control-next[b-15xig12kl7], .carousel-control-prev[b-15xig12kl7] {
+    width: 10%;
+    transition: opacity .5s ease;
+}
+
+a[b-15xig12kl7] {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.carousel-item[b-15xig12kl7] {
+    transition: transform 2.6s ease-in-out;
+  }
+  
+  .carousel-fade .active.carousel-item-start[b-15xig12kl7],
+  .carousel-fade .active.carousel-item-end[b-15xig12kl7] {
+    transition: opacity 0s 2.6s;
+  }
+

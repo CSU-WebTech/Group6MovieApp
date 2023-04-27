@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-33z3v26j29
 
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/Drama.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRHJhbWEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-cth7zs5xax
+
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9vdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-6y9f5w9828
@@ -44,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope = b-6y9f5w9828
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvSGVhZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-9rzjob31h4
 
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/Kids.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvS2lkcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-15xig12kl7
+
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-on6bid08w3
@@ -51,6 +59,10 @@ build_metadata.AdditionalFiles.CssScope = b-on6bid08w3
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/PopularMovies.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvUG9wdWxhck1vdmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-zykhfs0xdy
+
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/Thriller.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvVGhyaWxsZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lvr6s2n07v
 
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/WelcomeArea.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvV2VsY29tZUFyZWEucmF6b3I=
