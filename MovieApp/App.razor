@@ -1,4 +1,6 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿@using Shared.Components;
+
+<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
@@ -6,7 +8,6 @@
     <NotFound>
         <PageTitle>Movie App</PageTitle>
         <LayoutView Layout="@typeof(MainLayout)">
-            <p role="alert">This is our new Movie App</p>
         </LayoutView>
     </NotFound>
 </Router>

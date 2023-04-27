@@ -817,8 +817,6 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/staticwebassets.pack.json
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/staticwebassets.build.json
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/staticwebassets.development.json
-/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
-/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/bundle/MovieApp.styles.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/projectbundle/MovieApp.bundle.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/MovieApp.csproj.CopyComplete
@@ -835,3 +833,4 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/WelcomeArea.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Categories.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/MovieImages.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/MainLayout.razor.rz.scp.css

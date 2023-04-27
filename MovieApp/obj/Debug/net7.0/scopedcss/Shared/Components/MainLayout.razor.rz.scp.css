@@ -1,0 +1,16 @@
+.page[b-on6bid08w3] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-on6bid08w3] {
+    flex: 1;
+}
+
+@media (min-width: 641px) {
+    .page[b-on6bid08w3] {
+        flex-direction: row;
+    }
+
+}
