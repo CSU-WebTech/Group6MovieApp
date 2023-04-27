@@ -1,5 +1,9 @@
 /* /Pages/AllTitles.razor.rz.scp.css */
 
+#movie-image-container[b-v8zvq9mimm] {
+    
+}
+
 *[b-v8zvq9mimm] {
     background-color: #4A4949;
 }
@@ -60,6 +64,25 @@ a[b-3kbmi6y6ef] {
     text-decoration: none;
     color: #E46B6B;
 }
+/* /Shared/Components/AboutUs.razor.rz.scp.css */
+
+*[b-3dpwefubni] {
+    background-color: #4A4949;
+}
+
+h3[b-3dpwefubni]{
+    font-family: Inter, sans-serif;
+    align-items: center;
+    color: #FFF;
+    padding: 20px;
+}
+
+h4[b-3dpwefubni]{
+    font-family: Inter, sans-serif;
+    align-items: center;
+    color: #FFF;
+    padding: 20px;
+}
 /* /Shared/Components/Choices.razor.rz.scp.css */
 
 #container[b-w2akfzxjxd] {
@@ -90,6 +113,17 @@ a[b-3kbmi6y6ef] {
 a[b-w2akfzxjxd] {
     text-decoration: none;
     color: #E46B6B;
+}
+/* /Shared/Components/ContactUs.razor.rz.scp.css */
+
+*[b-gumtgch1dm] {
+    background-color: #4A4949;
+}
+
+h3[b-gumtgch1dm]{
+    font-family: Inter, sans-serif;
+    color: #FFF;
+    padding: 20px;
 }
 /* /Shared/Components/Drama.razor.rz.scp.css */
 

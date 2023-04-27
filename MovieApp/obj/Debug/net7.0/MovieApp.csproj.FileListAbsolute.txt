@@ -839,3 +839,5 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/Categories.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Choices.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/AllTitles.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/ContactUs.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/AboutUs.razor.rz.scp.css
