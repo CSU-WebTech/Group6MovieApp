@@ -26,7 +26,8 @@
 
 @code {
     private MovieResponse? movieResponse = null;
-    protected override async Task OnInitializedAsync() {
+    protected override async Task OnInitializedAsync() 
+    {
         movieResponse = await MovieClient.GetMovieResponse();
     }
 }

@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets/MovieApp.styles.css"
     },
     {
-      "Id": "/workspace/Group6MovieApp/MovieApp/wwwroot/carousel.js",
-      "PackagePath": "staticwebassets/carousel.js"
-    },
-    {
       "Id": "/workspace/Group6MovieApp/MovieApp/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },

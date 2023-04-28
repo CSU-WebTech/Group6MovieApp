@@ -17,10 +17,10 @@
     <WelcomeArea />
 
     <div id="movie-image-container" class="row container-fluid">
-        <h3>Choose the movie from Titles</h3>
+        <h3>All Titles</h3>
             @foreach (var movie in movies.Results) 
             {
-                <div class="col">
+                <div class="col-md-3 pb-3">
                     <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
                 </div>
             }

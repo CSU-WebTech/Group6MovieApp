@@ -1,8 +1,4 @@
 
-#movie-image-container[b-v8zvq9mimm] {
-    
-}
-
 *[b-v8zvq9mimm] {
     background-color: #4A4949;
 }
@@ -11,6 +7,7 @@ h3[b-v8zvq9mimm] {
     font-family: Inter, sans-serif;
     color: #FFF;
     padding: 20px;
+    text-align: center;
 }
 
 a[b-v8zvq9mimm] {

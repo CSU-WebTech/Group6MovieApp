@@ -1,11 +1,19 @@
+@using MovieApp.Shared.Components;
 @using System.Text.Json.Serialization;
 @inject HttpClient httpClient
 
-<nav class="navbar">
-    <div class="navbar-brand"><a href="/">Movie<span id="title-ratings">Ratings</span></a></div>
-    <div><input type="text" placeholder="Search..." id="search-bar-header" @bind-value="@searchTerm"><button @onclick="Search">Search</button></div>
-    <button type="button" id="login-button">Login</button>
-</nav>
+<div class="container-fluid">
+    <input type="text" placeholder="Search..." id="search-bar-header" @bind-value="@searchTerm">
+    <button @onclick="Search">Search</button>
+</div>
+
+@if (movies.Results != null) {
+    @foreach (var movie in movies.Results) {
+        <div class="col">
+            <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
+        </div>
+    }
+}
 
 @code {
     private MoviesResponse movies;
@@ -15,7 +23,6 @@
     {
         movies = await httpClient.GetFromJsonAsync<MoviesResponse>($"https://api.themoviedb.org/3/search/movie?api_key=3d16f1e91053992401099962ac5650c9&language=en-US&query={searchTerm}&page=1&include_adult=false");
     }
-
 
     public class MoviesResponse
     {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BgNmle+Me8WUR0PZ8ZpRNXQDui/Uj8hh1P52kuvyEEY=",
+  "Hash": "lEwysjtEywRtT19ZAzr669c1sxkiIGfM07W9hIcdiSw=",
   "Source": "MovieApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -6934,23 +6934,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/projectbundle/MovieApp.bundle.scp.css"
-    },
-    {
-      "Identity": "/workspace/Group6MovieApp/MovieApp/wwwroot/carousel.js",
-      "SourceId": "MovieApp",
-      "SourceType": "Discovered",
-      "ContentRoot": "/workspace/Group6MovieApp/MovieApp/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "carousel.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/carousel.js"
     },
     {
       "Identity": "/workspace/Group6MovieApp/MovieApp/wwwroot/css/app.css",
