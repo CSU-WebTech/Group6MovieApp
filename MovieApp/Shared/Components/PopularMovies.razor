@@ -1,5 +1,6 @@
 @using System.Text.Json.Serialization;
-@inject HttpClient httpClient
+@inject IJSRuntime JS;
+@inject HttpClient httpClient;
 
 @if (movies == null)
 {

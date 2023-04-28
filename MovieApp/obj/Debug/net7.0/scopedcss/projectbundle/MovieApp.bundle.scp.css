@@ -117,10 +117,25 @@ a[b-w2akfzxjxd] {
     background-color: #4A4949;
 }
 
-h3[b-gumtgch1dm]{
+h3[b-gumtgch1dm] {
     font-family: Inter, sans-serif;
     color: #FFF;
     padding: 20px;
+    text-align: center !important;
+}
+
+form label[b-gumtgch1dm] {
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+}
+
+#contact-container[b-gumtgch1dm] {
+    padding: 10px;
+    background-color: #4A4949;
+    display: flex;
+    flex-direction: column;
+    width: 75% !important;
 }
 /* /Shared/Components/Drama.razor.rz.scp.css */
 

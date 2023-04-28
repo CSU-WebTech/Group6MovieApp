@@ -4,6 +4,27 @@
 
  <WelcomeArea />
 
-<div id="movie-image-container" class="row container-fluid">
-    <h3> you can contact us at +1 800 567 8900 Or you can email us at MovieRatings@yahoo.com</h3>
+<div class="row container-fluid">
+    <h3>You can contact us at +1 800 567 8900 or send us an email at MovieRatings@yahoo.com</h3>
 </div>  
+
+<div id="contact-container" class="container">
+    <form>
+        <div class="form-group">
+            <label for="email-address">Email address</label>
+            <input type="email" class="form-control" id="email-text-area" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label for="subject-line">Subject</label>
+            <input type="text" class="form-control" id="subject-text" placeholder="Your subject line here...">
+        </div>
+        <div class="form-group">
+            <label for="contact-us">Contact us</label>
+            <textarea class="form-control" id="contact-text-area" rows="3"></textarea>
+        </div>
+    </form>
+</div>
+
+@code {
+
+}
