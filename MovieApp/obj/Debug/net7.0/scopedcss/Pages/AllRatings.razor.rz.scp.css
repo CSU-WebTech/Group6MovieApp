@@ -1,0 +1,16 @@
+
+*[b-kjorlugnv4] {
+    background-color: #4A4949;
+}
+
+h3[b-kjorlugnv4] {
+    font-family: Inter, sans-serif;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
+
+a[b-kjorlugnv4] {
+    text-decoration: none;
+    cursor: pointer;
+}

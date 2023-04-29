@@ -101,4 +101,36 @@ h1:focus {
         content: var(--blazor-load-percentage-text, "Loading");
     }
 
+@media only screen and (max-width: 630px) {
+
+    #search-bar-header {
+        width: auto;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    #container {
+        width: auto;
+    }
+
+    .mini-boxes {
+        padding: 15px;
+        height: auto;
+        width: auto;
+    }
+    
+    .welcome-area {
+        height: 100px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
     
