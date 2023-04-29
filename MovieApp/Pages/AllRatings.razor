@@ -23,9 +23,9 @@
                 <div class="col-md-3 pb-3">
                     <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
                     <div class="row" id="star-row">
-                        @for (int i = 0; i < (movie.VoteAverage / 2); i++) 
+                        @for (int i = 0; i < (@movie.VoteAverage / 2); i++) 
                         {
-                            <i class="fa-sharp fa-solid fa-star fa-xs" style="color: #e46b6b;"></i>
+                            <i class="fa-solid fa-star fa-2xs" style="color: #e46b6b;"></i>
                         } 
                     </div>
                 </div>
@@ -56,16 +56,10 @@
         public string Title { get; set; }
         public string Overview { get; set; }
 
-        
-        [JsonPropertyName("vote_average")]
         public int VoteAverage { get; set; }
 
-        
         [JsonPropertyName("poster_path")]
         public string PosterPath { get; set; }
         
-        public string PosterPathAlt { 
-            set { PosterPath = value; } 
-        }
     }
 }
