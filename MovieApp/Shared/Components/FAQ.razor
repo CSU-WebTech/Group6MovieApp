@@ -1,39 +1,20 @@
 @page "/Faq";
+@using Smart.Blazor;
 
 <Header />
 
 <WelcomeArea />
 
-<div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          How to Login to MovieApp Application ?
-        </button>
-      </h5>
-    </div>
+<Accordion>
+  <AccordionItem Label= "What is the purpose of this Application?" Content= "This Movie App application helps in finding the different movies and its ratings."></AccordionItem>
+  <AccordionItem Label= "How to Login to MovieApp Application ?" Content= "In the website Home page, top right corner there is a login button. When you click on it, It will redirect into a page where you need to provide user email id and password."></AccordionItem>
+  <AccordionItem Label= "How to contact the Customer Support?" Content= "In the bottom of this page, There is a link to Contact us."></AccordionItem>
+  <AccordionItem Label= "How do I find rating of Movie?" Content= "In the bottom of this page, You can find the Ratings tabe where you will redirect to individual movie ratings."></AccordionItem>
+</Accordion>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-        In the website Home page, top right corner there is a login button. When you click on it, It will redirect into a page where you need to provide user email id and password. 
-      </div>
-    </div>
-    </div>
+<Accordion DataSource="items" ExpandMode="AccordionExpandMode.Toggle"></Accordion>
 
-    <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-          What is the purpose of this Application?
-        </button>
-      </h5>
-    </div>
+@code{
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-        This Movie App application helps in finding the different movies and its ratings. 
-      </div>
-    </div>
-    </div>
-  </div>
+  private object[] items = new object[]{ };
+}
