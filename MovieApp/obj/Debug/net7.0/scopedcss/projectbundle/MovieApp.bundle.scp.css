@@ -160,10 +160,6 @@ form label[b-gumtgch1dm] {
     background-color: #4A4949;
 }
 
-#movie-image-container[b-cth7zs5xax] {
-    max-height: 600px;
-}
-
 .col[b-cth7zs5xax] {
     max-height: inherit;
 }
@@ -327,11 +323,6 @@ a[b-9rzjob31h4] {
     background-color: #4A4949;
 }
 
-#movie-image-container[b-15xig12kl7] {
-    max-height: 600px;
-    margin-bottom: 50px;
-}
-
 .col[b-15xig12kl7] {
     max-height: inherit;
 }
@@ -394,10 +385,6 @@ main[b-on6bid08w3] {
     background-color: #4A4949;
 }
 
-#movie-image-container[b-zykhfs0xdy] {
-    max-height: 600px;
-}
-
 .col[b-zykhfs0xdy] {
     max-height: inherit;
 }
@@ -418,8 +405,8 @@ h3[b-zykhfs0xdy] {
 }
 
 .carousel-control-next[b-zykhfs0xdy], .carousel-control-prev[b-zykhfs0xdy] {
-    width: 8%;
-    transition: opacity .5s ease-in !important;
+    width: 10%;
+    transition: opacity .5s ease;
 }
 
 a[b-zykhfs0xdy] {
@@ -427,14 +414,19 @@ a[b-zykhfs0xdy] {
     cursor: pointer;
 }
 
+.carousel-item[b-zykhfs0xdy] {
+    transition: transform 2.6s ease-in-out;
+  }
+  
+  .carousel-fade .active.carousel-item-start[b-zykhfs0xdy],
+  .carousel-fade .active.carousel-item-end[b-zykhfs0xdy] {
+    transition: opacity 0s 2.6s;
+  }
+
 /* /Shared/Components/Thriller.razor.rz.scp.css */
 
 *[b-lvr6s2n07v] {
     background-color: #4A4949;
-}
-
-#movie-image-container[b-lvr6s2n07v] {
-    max-height: 600px;
 }
 
 .col[b-lvr6s2n07v] {

@@ -3,10 +3,6 @@
     background-color: #4A4949;
 }
 
-#movie-image-container {
-    max-height: 600px;
-}
-
 .col {
     max-height: inherit;
 }
