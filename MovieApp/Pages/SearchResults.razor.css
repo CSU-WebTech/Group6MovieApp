@@ -1,0 +1,17 @@
+h3 {
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+
+* {
+    background-color: #4A4949;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,9 +1,15 @@
 @using System.Text.Json.Serialization;
+@using MovieApp.Shared.Components;
+@using MovieApp.Pages;
+@inject NavigationManager NavigationManager;
 @inject HttpClient httpClient
 
 <nav class="navbar">
     <div class="navbar-brand"><a href="/">Movie<span id="title-ratings">Ratings</span></a></div>
-    <div><input type="text" placeholder="Search..." id="search-bar-header" @bind-value="@searchTerm"><button @onclick="Search">Search</button></div>
+    <div>
+        <input type="text" placeholder="Search..." id="search-bar-header" @bind-value="@searchTerm">
+        <button id="search-button" class="btn" @onclick="Search">Search</button>
+    </div>
     <button type="button" id="login-button">Login</button>
 </nav>
 
@@ -13,7 +19,8 @@
 
     private async Task Search() 
     {
-        movies = await httpClient.GetFromJsonAsync<MoviesResponse>($"https://api.themoviedb.org/3/search/movie?api_key=3d16f1e91053992401099962ac5650c9&language=en-US&query={searchTerm}&page=1&include_adult=false");
+        <!-- movies = await httpClient.GetFromJsonAsync<MoviesResponse>($"https://api.themoviedb.org/3/search/movie?api_key=3d16f1e91053992401099962ac5650c9&language=en-US&query={searchTerm}&page=1&include_adult=false"); -->
+        NavigationManager.NavigateTo($"/search-results/{searchTerm}");
     }
 
 

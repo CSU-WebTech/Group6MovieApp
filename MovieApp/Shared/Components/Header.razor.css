@@ -61,3 +61,10 @@ a {
     float: left;
     border-radius: 10px;
 }
+
+#search-button {
+    background: #E46B6B;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+}

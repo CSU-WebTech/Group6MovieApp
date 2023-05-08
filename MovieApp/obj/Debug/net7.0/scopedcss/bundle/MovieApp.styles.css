@@ -78,6 +78,24 @@ a[b-3kbmi6y6ef] {
     text-decoration: none;
     color: #E46B6B;
 }
+/* /Pages/SearchResults.razor.rz.scp.css */
+h3[b-6xg57j5gms] {
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+
+*[b-6xg57j5gms] {
+    background-color: #4A4949;
+}
+
+a[b-6xg57j5gms] {
+    text-decoration: none;
+    cursor: pointer;
+}
 /* /Shared/Components/AboutUs.razor.rz.scp.css */
 
 *[b-3dpwefubni] {
@@ -316,6 +334,13 @@ a[b-9rzjob31h4] {
     height: 35px;
     float: left;
     border-radius: 10px;
+}
+
+#search-button[b-9rzjob31h4] {
+    background: #E46B6B;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
 }
 /* /Shared/Components/Kids.razor.rz.scp.css */
 

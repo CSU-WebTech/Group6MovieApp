@@ -61,3 +61,10 @@ a[b-9rzjob31h4] {
     float: left;
     border-radius: 10px;
 }
+
+#search-button[b-9rzjob31h4] {
+    background: #E46B6B;
+    color: #fff;
+    border-radius: 10px;
+    display: flex;
+}
