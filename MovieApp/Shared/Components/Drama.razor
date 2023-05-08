@@ -15,16 +15,16 @@
                                     <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
                                 </div>
                             }
-                        <div class="carousel-item">
-                            <div class="row">
-                                @for (int i = 6; i < 11; i++) 
-                                {
-                                    <div class="col">
-                                        <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
-                                    </div>
-                                }
-                            </div>
                         </div>
+                    </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        @for (int i = 6; i < 11; i++) 
+                        {
+                            <div class="col">
+                                <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
+                            </div>
+                        }
                     </div>
                 </div>
             </div>
