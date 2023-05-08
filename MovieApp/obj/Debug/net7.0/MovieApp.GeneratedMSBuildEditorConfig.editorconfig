@@ -24,14 +24,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/Group6MovieApp/MovieApp/Shared/Components/FAQ.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRkFRLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[/workspace/Group6MovieApp/MovieApp/Shared/Components/Test.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvVGVzdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/workspace/Group6MovieApp/MovieApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -67,6 +59,10 @@ build_metadata.AdditionalFiles.CssScope = b-gumtgch1dm
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/Drama.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRHJhbWEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-cth7zs5xax
+
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/FAQ.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRkFRLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-kzfm16yoff
 
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9vdGVyLnJhem9y

@@ -1,0 +1,27 @@
+
+* {
+    background-color: #4A4949;
+    color: #fff;
+}
+
+#flushCollapseOne, #flushCollapseTwo, #flushCollapseThree, #flushCollapseFour {
+    background-color: #4A4949;
+}
+
+.accordion-body {
+    background-color: #e7f1ff;
+    color: #4A4949;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #4A4949;
+}
+
+#faq-container {
+    margin-bottom: 15%;
+}

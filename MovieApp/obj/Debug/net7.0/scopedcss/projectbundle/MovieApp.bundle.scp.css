@@ -216,6 +216,34 @@ a[b-cth7zs5xax] {
     transition: opacity 0s 2.6s;
   }
 
+/* /Shared/Components/FAQ.razor.rz.scp.css */
+
+*[b-kzfm16yoff] {
+    background-color: #4A4949;
+    color: #fff;
+}
+
+#flushCollapseOne[b-kzfm16yoff], #flushCollapseTwo[b-kzfm16yoff], #flushCollapseThree[b-kzfm16yoff], #flushCollapseFour[b-kzfm16yoff] {
+    background-color: #4A4949;
+}
+
+.accordion-body[b-kzfm16yoff] {
+    background-color: #e7f1ff;
+    color: #4A4949;
+}
+
+a[b-kzfm16yoff] {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.accordion-button:not(.collapsed)[b-kzfm16yoff] {
+    color: #4A4949;
+}
+
+#faq-container[b-kzfm16yoff] {
+    margin-bottom: 15%;
+}
 /* /Shared/Components/Footer.razor.rz.scp.css */
 .navbar-footer[b-6y9f5w9828] {
     background-color: #4A4949;
