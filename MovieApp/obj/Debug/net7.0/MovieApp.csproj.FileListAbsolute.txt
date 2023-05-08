@@ -842,3 +842,5 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/ContactUs.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/AboutUs.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/AllRatings.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/package-lock.json
+/workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/package.json

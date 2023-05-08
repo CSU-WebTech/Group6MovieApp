@@ -5,7 +5,7 @@
 
 <div id="movie-image-container" class="row container-fluid">
     <h3>Drama</h3>
-        <div id="drama-gallery" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row">
@@ -15,29 +15,28 @@
                                     <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
                                 </div>
                             }
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <div class="row">
-                        @for (int i = 6; i < 11; i++) 
-                        {
-                            <div class="col">
-                                <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
+                        <div class="carousel-item">
+                            <div class="row">
+                                @for (int i = 6; i < 11; i++) 
+                                {
+                                    <div class="col">
+                                        <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
+                                    </div>
+                                }
                             </div>
-                        }
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <a class="carousel-control-prev" data-bs-target="#drama-gallery" role="button" data-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only"></span>
-            </a>
-            <a class="carousel-control-next" data-bs-target="#drama-gallery" role="button" data-slide="next">
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only"></span>
-            </a>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 </div>
 
