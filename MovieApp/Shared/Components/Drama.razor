@@ -1,10 +1,11 @@
 @using System.Text.Json.Serialization;
-@inject HttpClient httpClient
+@inject HttpClient httpClient;
+@inject IJSRuntime JSRunTime;
 
 
 <div id="movie-image-container" class="row container-fluid">
     <h3>Drama</h3>
-        <div id="gallery" class="carousel slide" data-bs-ride="carousel">
+        <div id="drama-gallery" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row">
@@ -29,11 +30,11 @@
                 </div>
             </div>
 
-            <a class="carousel-control-prev" href="#gallery" role="button" data-slide="prev">
+            <a class="carousel-control-prev" data-bs-target="#drama-gallery" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only"></span>
             </a>
-            <a class="carousel-control-next" href="#gallery" role="button" data-slide="next">
+            <a class="carousel-control-next" data-bs-target="#drama-gallery" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only"></span>
             </a>
