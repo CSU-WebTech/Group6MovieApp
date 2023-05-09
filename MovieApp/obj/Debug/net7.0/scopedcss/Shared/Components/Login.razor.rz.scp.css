@@ -1,0 +1,28 @@
+*[b-zqzl85hryy] {
+    background-color: #4A4949;
+}
+
+form label[b-zqzl85hryy]{
+    color: #fff;
+    font-family: Inter, sans-serif;
+    float: left;
+    font-size: 18px;
+}
+
+#login-container[b-zqzl85hryy] {
+    padding: 10px;
+    background-color: #4A4949;
+    display: flex;
+    flex-direction: column;
+    width: 75% !important;
+}
+
+#login-button[b-zqzl85hryy] {
+    background-color: #FFEAEA;
+    color: #000;
+    width: 100px;
+    height: 35px;
+    float: left;
+    border-radius: 10px;
+    margin-bottom: 20%;
+}

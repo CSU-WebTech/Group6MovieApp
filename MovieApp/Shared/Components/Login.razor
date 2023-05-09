@@ -1,0 +1,30 @@
+@page "/Login";
+@inject NavigationManager NavigationManager;
+
+<WelcomeArea />
+
+<div id="login-container" class="container-fluid mb-20">
+    <form>
+        <div class="form-group pb-3">
+            <label for="email-address">Email address</label>
+            <input type="email" class="form-control" id="email-text-area" placeholder="name@example.com">
+        </div>
+        <div class="form-group pb-3">
+            <label for="password-line">Password</label>
+            <input type="password" class="form-control" id="password-text" placeholder="Enter your Password">
+        </div>
+        <div class="form-group pb-3">
+        <button type="button" id="login-button" @onclick="@OnLoginClicked">Login</button>
+        </div>
+    </form>
+</div>
+
+<Footer />
+
+@code {
+    
+    private async Task OnLoginClicked()
+    {
+        NavigationManager.NavigateTo($"/all-titles");
+    }
+}

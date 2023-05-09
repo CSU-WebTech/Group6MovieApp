@@ -858,3 +858,4 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/DramaPage.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/KidsPage.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/ThrillerPage.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/Login.razor.rz.scp.css

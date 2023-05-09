@@ -84,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope = b-9rzjob31h4
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvS2lkcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-15xig12kl7
 
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-zqzl85hryy
+
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-on6bid08w3
