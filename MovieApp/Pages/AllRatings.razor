@@ -17,7 +17,7 @@
         @foreach (var movie in movies.Results) 
         {
             <div class="col-md-2 pb-5">
-                <a href="#" @onclick="@(() => { NavigationManager.NavigateTo($"/movie/{@movie.Id}"); })" @onclick:preventDefault><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
+                <a href="#" @onclick="@(() => { NavigationManager.NavigateTo($"/movie/{@movie.Title}"); })" @onclick:preventDefault><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
                 <div class="row mt-2 justify-content-center" id="star-row">
                     @for (int i = 0; i < (@movie.VoteAverage / 2); i++) 
                     {
@@ -43,7 +43,7 @@
     public class MoviesResponse
     {
         public int Page { get; set; }
-        public List<Movie> Results { get; set; }
+        public List<Movie> Results { get; set; } = new List<Movie>();
     }
 
     public class Movie
@@ -51,6 +51,7 @@
         [JsonPropertyName("id")]
         public int Id { get; set; }
 
+        [JsonPropertyName("original_title")]
         public string Title { get; set; }
 
         public string Overview { get; set; }

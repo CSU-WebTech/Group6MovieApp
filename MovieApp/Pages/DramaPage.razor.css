@@ -1,10 +1,17 @@
-*[b-npugexaf1d] {
+
+* {
     background-color: #4A4949;
 }
 
-h3[b-npugexaf1d] {
+h3 {
     font-family: Inter, sans-serif;
     color: #FFF;
     padding: 20px;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+

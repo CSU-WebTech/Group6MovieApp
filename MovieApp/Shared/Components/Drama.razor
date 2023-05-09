@@ -1,4 +1,5 @@
 @using System.Text.Json.Serialization;
+@inject NavigationManager NavigationManager;
 @inject HttpClient httpClient;
 
 
@@ -11,7 +12,7 @@
                             @for (int i = 0; i < 5; i++) 
                             {
                                 <div class="col">
-                                    <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
+                                    <a href="/movie/{@movies.Results[i].Title}"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
                                 </div>
                             }
                         </div>
@@ -21,7 +22,7 @@
                         @for (int i = 6; i < 11; i++) 
                         {
                             <div class="col">
-                                <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
+                                <a href="/movie/{@movies.Results[i].Title}"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" /></a>
                             </div>
                         }
                     </div>
@@ -56,6 +57,7 @@
 
     public class Movie
     {
+        [JsonPropertyName("original_title")]
         public string Title { get; set; }
         public string Overview { get; set; }
         public string PosterPath { get; set; }

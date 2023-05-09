@@ -1,0 +1,72 @@
+@using MovieApp.Shared.Components;
+@using System.Text.Json.Serialization;
+@using MovieApp.Models;
+@using MovieApp.Clients;
+@inject NavigationManager NavigationManager;
+@inject MovieClient MovieClient;
+@inject HttpClient httpClient;
+@page "/movie/{*query}";
+
+<Header />
+
+<WelcomeArea />
+
+<div class="container-fluid d-flex flex-column justify-content-center align-items-center">
+
+    @for (int i = 0; i < 1; i++) {
+
+        <h3>Movie Rating: @movies.Results[i].Title</h3>
+
+            <div class="col-md-3 pb-3">
+                <img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movies.Results[i].PosterPath}")" alt="@movies.Results[i].Title" />
+                <div class="row mt-2 justify-content-center" id="star-row">
+                    @for (int j = 0; j < (@movies.Results[0].VoteAverage / 2); j++) 
+                    {
+                        <i class="fa-solid fa-star" style="color: #e46b6b; width: inherit;"></i>
+                    } 
+                </div>
+            </div>
+        <p class="font-weight-bold">@movies.Results[i].Overview</p>
+    }
+</div>
+
+<Categories />
+
+<Footer />
+
+
+@code {
+
+    [Parameter]
+    public string? query { get; set; }
+
+    private MoviesResponse movies = new MoviesResponse();
+
+    protected override async Task OnInitializedAsync() 
+    {
+        movies = await httpClient.GetFromJsonAsync<MoviesResponse>($"https://api.themoviedb.org/3/search/movie?api_key=3d16f1e91053992401099962ac5650c9&language=en-US&query={query}&page=1&include_adult=false");
+    }
+
+    public class MoviesResponse
+    {
+        public List<Movie> Results { get; set; } = new List<Movie>();
+    }
+
+    public class Movie
+    {
+        [JsonPropertyName("original_title")]
+        public string Title { get; set; }
+
+        [JsonPropertyName("overview")]
+        public string Overview { get; set; }
+
+        [JsonPropertyName("vote_average")]
+        public double VoteAverage { get; set; }
+
+        public string PosterPath { get; set; }
+        [JsonPropertyName("poster_path")]
+        public string PosterPathAlt { 
+            set { PosterPath = value; } 
+        }
+    }
+}

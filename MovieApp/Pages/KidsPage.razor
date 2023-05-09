@@ -5,7 +5,7 @@
 @inject MovieClient MovieClient;
 @inject NavigationManager NavigationManager;
 @inject HttpClient httpClient
-@page "/all-titles";
+@page "/kids";
 
 @if (movies == null)
 {
@@ -18,7 +18,7 @@
     <WelcomeArea />
 
     <div id="movie-image-container" class="row container-fluid">
-        <h3>Popular Movies</h3>
+        <h3>Kids Movies</h3>
             @foreach (var movie in movies.Results) 
             {
                 <div class="col-md-3 pb-3">
@@ -37,7 +37,7 @@
 
     protected override async Task OnInitializedAsync()
     {
-        movies = await httpClient.GetFromJsonAsync<MoviesResponse>("https://api.themoviedb.org/3/movie/popular?api_key=3d16f1e91053992401099962ac5650c9&language=en-US&page=1");
+        movies = await httpClient.GetFromJsonAsync<MoviesResponse>("https://api.themoviedb.org/3/discover/movie?api_key=3d16f1e91053992401099962ac5650c9&language=en-US&sort_by=popularity.desc&page=1&with_genres=10751");
     }
 
     public class MoviesResponse

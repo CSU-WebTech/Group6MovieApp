@@ -18,7 +18,7 @@
             @foreach (var movie in movies.Results) {
                 @if (movie.PosterPath != null) {
                     <div class="col-md-3 pb-3">
-                        <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
+                        <a href="#" @onclick="@(() => { NavigationManager.NavigateTo($"/movie/{@movie.Title}"); })" @onclick:preventDefault><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
                     </div>
                 }
                 
@@ -46,7 +46,7 @@
     public class MoviesResponse
     {
         public int Page { get; set; }
-        public List<Movie> Results { get; set; }
+        public List<Movie> Results { get; set; } = new List<Movie>();
     }
 
     public class Movie

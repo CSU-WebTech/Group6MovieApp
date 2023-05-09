@@ -1,3 +1,4 @@
+
 * {
     background-color: #4A4949;
 }
@@ -8,3 +9,9 @@ h3 {
     padding: 20px;
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+

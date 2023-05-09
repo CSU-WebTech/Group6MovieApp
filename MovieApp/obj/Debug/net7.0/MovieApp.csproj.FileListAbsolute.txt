@@ -838,7 +838,6 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/AllRatings.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/package-lock.json
 /workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/package.json
-/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/SearchResults.razor.rz.scp.css
 /workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/_framework/Newtonsoft.Json.dll
 /workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/_framework/Smart.Blazor.dll
 /workspace/Group6MovieApp/MovieApp/bin/Debug/net7.0/wwwroot/_framework/Smart.Blazor.dll.gz
@@ -854,4 +853,8 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/build-gz/sD+OxpK5.gz
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/build-gz/mlEMfj8i.gz
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/FAQ.razor.rz.scp.css
-/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/MovieRatings.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/MovieRatings.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/SearchResults.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/DramaPage.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/KidsPage.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/ThrillerPage.razor.rz.scp.css

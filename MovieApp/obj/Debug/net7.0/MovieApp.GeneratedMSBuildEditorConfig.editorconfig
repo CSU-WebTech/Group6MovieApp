@@ -40,13 +40,17 @@ build_metadata.AdditionalFiles.CssScope = b-v8zvq9mimm
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-3kbmi6y6ef
 
-[/workspace/Group6MovieApp/MovieApp/Pages/MovieRatings.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVSYXRpbmdzLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-npugexaf1d
+[/workspace/Group6MovieApp/MovieApp/Pages/DramaPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRHJhbWFQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-gxj75euzx4
 
-[/workspace/Group6MovieApp/MovieApp/Pages/SearchResults.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VhcmNoUmVzdWx0cy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-6xg57j5gms
+[/workspace/Group6MovieApp/MovieApp/Pages/KidsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvS2lkc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dqwqxo95kr
+
+[/workspace/Group6MovieApp/MovieApp/Pages/ThrillerPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGhyaWxsZXJQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-5h6irzjfq2
 
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/AboutUs.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvQWJvdXRVcy5yYXpvcg==
@@ -84,9 +88,17 @@ build_metadata.AdditionalFiles.CssScope = b-15xig12kl7
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-on6bid08w3
 
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/MovieRatings.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvTW92aWVSYXRpbmdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-77wyigf9ah
+
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/PopularMovies.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvUG9wdWxhck1vdmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-zykhfs0xdy
+
+[/workspace/Group6MovieApp/MovieApp/Shared/Components/SearchResults.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvU2VhcmNoUmVzdWx0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-7negb51xz6
 
 [/workspace/Group6MovieApp/MovieApp/Shared/Components/Thriller.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvVGhyaWxsZXIucmF6b3I=
