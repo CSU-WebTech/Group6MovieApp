@@ -14,3 +14,12 @@ a {
     text-decoration: none;
     cursor: pointer;
 }
+
+.img-mm {
+    opacity: 0.75;
+}
+
+.img-mm:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}

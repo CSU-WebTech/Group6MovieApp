@@ -15,6 +15,15 @@ a[b-kjorlugnv4] {
     text-decoration: none;
     cursor: pointer;
 }
+
+.img-mm[b-kjorlugnv4] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-kjorlugnv4] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
 /* /Pages/AllTitles.razor.rz.scp.css */
 
 *[b-v8zvq9mimm] {
@@ -33,6 +42,14 @@ a[b-v8zvq9mimm] {
     cursor: pointer;
 }
 
+.img-mm[b-v8zvq9mimm] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-v8zvq9mimm] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
 /* /Pages/Categories.razor.rz.scp.css */
 .welcome-area[b-3kbmi6y6ef] {
     background-color: #E46B6B;
@@ -637,6 +654,7 @@ h3[b-77wyigf9ah], p[b-77wyigf9ah] {
     padding: 20px;
     text-align: center;
 }
+
 /* /Shared/Components/PopularMovies.razor.rz.scp.css */
 
 *[b-zykhfs0xdy] {

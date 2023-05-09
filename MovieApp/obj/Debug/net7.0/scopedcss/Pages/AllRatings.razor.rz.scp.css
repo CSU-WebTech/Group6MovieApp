@@ -14,3 +14,12 @@ a[b-kjorlugnv4] {
     text-decoration: none;
     cursor: pointer;
 }
+
+.img-mm[b-kjorlugnv4] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-kjorlugnv4] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
