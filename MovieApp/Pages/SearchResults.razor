@@ -16,9 +16,12 @@
             <h3 class="">Woops... Nothing to see here, try again!</h3>
         } else {
             @foreach (var movie in movies.Results) {
-                <div class="col-md-3 pb-3">
-                    <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
-                </div>
+                @if (movie.PosterPath != null) {
+                    <div class="col-md-3 pb-3">
+                        <a href="#"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
+                    </div>
+                }
+                
             }
         }
 </div>
