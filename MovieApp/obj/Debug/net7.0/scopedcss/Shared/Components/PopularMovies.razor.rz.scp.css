@@ -16,6 +16,15 @@ img[b-zykhfs0xdy] {
     border-radius: 5px;
 }
 
+.img-mm[b-zykhfs0xdy] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-zykhfs0xdy] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
+
 h3[b-zykhfs0xdy] {
     font-family: Inter, sans-serif;
     color: #FFF;

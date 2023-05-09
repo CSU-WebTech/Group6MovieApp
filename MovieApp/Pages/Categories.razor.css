@@ -34,8 +34,15 @@
 }
 
 white-boxes h3 {
-    color: #E46B6B;
+    color: inherit;
     font-size: 30px;
+}
+
+.white-boxes:hover {
+    color: #fff;
+    background-color: #E46B6B;
+    transition: all 0.3s ease-in;
+    border: 4px solid #fff;
 }
 
 a {
