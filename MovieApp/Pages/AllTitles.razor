@@ -7,33 +7,27 @@
 @inject HttpClient httpClient
 @page "/all-titles";
 
-@if (movies == null)
-{
-    <p>Loading movies...</p>
-} else
-    {
-
-    <Header />
+<Header />
     
-    <WelcomeArea />
+<WelcomeArea />
 
-    <div id="movie-image-container" class="row container-fluid">
-        <h3>Popular Movies</h3>
-            @foreach (var movie in movies.Results) 
-            {
-                <div class="col-md-3 pb-3">
-                    <a href="#" @onclick="@(() => { NavigationManager.NavigateTo($"/movie/{@movie.Title}"); })" @onclick:preventDefault><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
-                </div>
-            }
-    </div>
+<div id="movie-image-container" class="row container-fluid">
+    <h3>Popular Movies</h3>
+        @foreach (var movie in movies.Results) 
+        {
+            <div class="col-md-3 pb-3">
+                <a href="#" @onclick="@(() => { NavigationManager.NavigateTo($"/movie/{@movie.Title}"); })" @onclick:preventDefault><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
+            </div>
+        }
+</div>
 
-    <Choices />
+<Choices />
 
-    <Footer />
-}
+<Footer />
+
 
 @code {
-    private MoviesResponse movies;
+    private MoviesResponse movies = new MoviesResponse();
 
     protected override async Task OnInitializedAsync()
     {
@@ -43,15 +37,17 @@
     public class MoviesResponse
     {
         public int Page { get; set; }
-        public List<Movie> Results { get; set; }
+        public List<Movie> Results { get; set; } = new List<Movie>();
     }
 
     public class Movie
     {
-        public string Title { get; set; }
-        public string Overview { get; set; }
-        public string PosterPath { get; set; }
+        [JsonPropertyName("original_title")]
+        public string? Title { get; set; }
+
         [JsonPropertyName("poster_path")]
+        public string? PosterPath { get; set; }
+        
         public string PosterPathAlt { 
             set { PosterPath = value; } 
         }

@@ -52,16 +52,17 @@
     public class MoviesResponse
     {
         public int Page { get; set; }
-        public List<Movie> Results { get; set; }
+        public List<Movie> Results { get; set; } = new List<Movie>();
     }
 
     public class Movie
     {
         [JsonPropertyName("original_title")]
-        public string Title { get; set; }
-        public string Overview { get; set; }
-        public string PosterPath { get; set; }
+        public string? Title { get; set; }
+
         [JsonPropertyName("poster_path")]
+        public string? PosterPath { get; set; }
+        
         public string PosterPathAlt { 
             set { PosterPath = value; } 
         }

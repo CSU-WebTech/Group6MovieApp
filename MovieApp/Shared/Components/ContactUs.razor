@@ -35,7 +35,7 @@
 
     private async Task Submit()
     {
-        NavigationManager.NavigateTo($"/");
+        await Task.Run(() => NavigationManager.NavigateTo("/"));
     }
 
 }

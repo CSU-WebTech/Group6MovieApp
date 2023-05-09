@@ -25,6 +25,6 @@
     
     private async Task OnLoginClicked()
     {
-        NavigationManager.NavigateTo($"/all-titles");
+        await Task.Run(() => NavigationManager.NavigateTo($"/all-titles"));
     }
 }

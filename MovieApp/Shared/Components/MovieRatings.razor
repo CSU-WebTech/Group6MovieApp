@@ -30,7 +30,7 @@
     }
 </div>
 
-<Categories />
+<Choices />
 
 <Footer />
 
@@ -55,15 +55,15 @@
     public class Movie
     {
         [JsonPropertyName("original_title")]
-        public string Title { get; set; }
+        public string? Title { get; set; }
 
         [JsonPropertyName("overview")]
-        public string Overview { get; set; }
+        public string? Overview { get; set; }
 
         [JsonPropertyName("vote_average")]
-        public double VoteAverage { get; set; }
+        public double? VoteAverage { get; set; }
 
-        public string PosterPath { get; set; }
+        public string? PosterPath { get; set; }
         [JsonPropertyName("poster_path")]
         public string PosterPathAlt { 
             set { PosterPath = value; } 

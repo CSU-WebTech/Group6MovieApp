@@ -33,7 +33,7 @@
 }
 
 @code {
-    private MoviesResponse movies;
+    private MoviesResponse movies = new MoviesResponse();
 
     protected override async Task OnInitializedAsync()
     {
@@ -43,15 +43,17 @@
     public class MoviesResponse
     {
         public int Page { get; set; }
-        public List<Movie> Results { get; set; }
+        public List<Movie> Results { get; set; } = new List<Movie>();
     }
 
     public class Movie
     {
-        public string Title { get; set; }
-        public string Overview { get; set; }
-        public string PosterPath { get; set; }
+        [JsonPropertyName("original_title")]
+        public string? Title { get; set; }
+
         [JsonPropertyName("poster_path")]
+        public string? PosterPath { get; set; }
+        
         public string PosterPathAlt { 
             set { PosterPath = value; } 
         }

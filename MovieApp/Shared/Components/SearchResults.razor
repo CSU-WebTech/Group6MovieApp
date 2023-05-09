@@ -26,7 +26,7 @@
         }
 </div>
 
-<Categories />
+<Choices />
 
 <Footer />
 
@@ -36,7 +36,7 @@
     [Parameter]
     public string? query { get; set; }
 
-    private MoviesResponse movies;
+    private MoviesResponse movies = new MoviesResponse();
 
     protected override async Task OnInitializedAsync() 
     {
@@ -51,10 +51,12 @@
 
     public class Movie
     {
-        public string Title { get; set; }
-        public string Overview { get; set; }
-        public string PosterPath { get; set; }
+        [JsonPropertyName("original_title")]
+        public string? Title { get; set; }
+
         [JsonPropertyName("poster_path")]
+        public string? PosterPath { get; set; }
+
         public string PosterPathAlt { 
             set { PosterPath = value; } 
         }
