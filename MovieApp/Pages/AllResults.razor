@@ -2,13 +2,15 @@
 @using System.Text.Json.Serialization;
 @inject HttpClient httpClient;
 @inject NavigationManager NavigationManager;
-@page "/all-results/{id:int}";
+@page "/movie/{id:int}";
 
 <Header />
 
 <WelcomeArea />
 
 <div class="container-fluid">
+
+@foreach (var movie in movies.Results) {
 
     <h3>Movie Rating: @movie.Title</h3>
 
@@ -21,6 +23,8 @@
                 } 
             </div>
         </div>
+        <p>@movie.Overview</p>
+}
 </div>
 
 <Categories />
@@ -48,7 +52,13 @@
 
     public class Movie
     {
+        [JsonPropertyName("id")]
+        public int Id { get; set; }
+
+        [JsonPropertyName("original_title")]
         public string Title { get; set; }
+
+        [JsonPropertyName("overview")]
         public string Overview { get; set; }
 
         [JsonPropertyName("vote_average")]
