@@ -1,8 +1,9 @@
 @page "/ContactUs";
+@inject NavigationManager NavigationManager;
 
- <Header />
+<Header />
 
- <WelcomeArea />
+<WelcomeArea />
 
 <div class="row container-fluid">
     <h3>You can contact us at +1 800 567 8900 or send us an email at MovieRatings@yahoo.com</h3>
@@ -22,13 +23,19 @@
             <label for="contact-us">Contact us</label>
             <textarea class="form-control" id="contact-text-area" rows="3" placeholder="Type what you would like to say..."></textarea>
         </div>
+        <div class="form-group pb-3">
+        <button type="button" id="submit-button" @onclick="Submit">Submit</button>
+        </div>
     </form>
 </div>
-
-<Choices />
 
 <Footer />
 
 @code {
+
+    private async Task Submit()
+    {
+        NavigationManager.NavigateTo($"/");
+    }
 
 }

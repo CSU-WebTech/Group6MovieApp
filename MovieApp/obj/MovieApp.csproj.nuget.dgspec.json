@@ -51,10 +51,6 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Smart.Blazor": {
-              "target": "Package",
-              "version": "[15.1.1, )"
-            },
             "jQuery": {
               "target": "Package",
               "version": "[3.6.4, )"
