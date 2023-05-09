@@ -4,13 +4,20 @@
 @inject NavigationManager NavigationManager;
 @inject HttpClient httpClient
 
-<nav class="navbar">
-    <div class="navbar-brand"><a href="/">Movie<span id="title-ratings">Ratings</span></a></div>
-    <div>
-        <input type="text" placeholder="Search..." id="search-bar-header" @bind-value="@searchTerm">
-        <button id="search-button" class="btn" @onclick="Search">Search</button>
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <div class="navbar-brand"><a href="/">Movie<span id="title-ratings">Ratings</span></a></div>
+        <!-- <div>
+            <input type="text" placeholder="Search..." id="search-bar-header" @bind-value="@searchTerm">
+            <button id="search-button" class="btn" @onclick="Search">Search</button>
+        </div> -->
+
+        <form class="d-flex">
+            <input id="search-bar-header" class="form-control me-2" type="search" placeholder="Search..." aria-label="Search" @bind-value="@searchTerm">
+            <button id="search-button" class="btn" type="submit" @onclick="Search">Search</button>
+        </form>
+        <button type="button" id="login-button">Login</button>
     </div>
-    <button type="button" id="login-button">Login</button>
 </nav>
 
 @code {

@@ -1,8 +1,6 @@
 .navbar {
     background-color: #4A4949;
-    padding: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     min-height: 100px;
     padding: 0px 50px;
@@ -27,11 +25,8 @@ a {
 #search-bar-header {
     background-color: #FFEAEA;
     color: #000;
-    width: 700px;
+    min-width: 400px;
     height: 35px;
-    justify-content: center;
-    align-items: center;
-    float: left;
     border-radius: 10px;
 }
 
@@ -66,5 +61,15 @@ a {
     background: #E46B6B;
     color: #fff;
     border-radius: 10px;
-    display: flex;
+}
+
+
+@media screen and (max-width: 800px) {
+    #login-button{ 
+        display: none;
+    }
+    #search-bar-header {
+        max-width: 400px;
+        min-width: auto;
+    }
 }
