@@ -1,8 +1,6 @@
-.navbar-footer {
+.navbar {
     background-color: #4A4949;
-    padding: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     min-height: 100px;
     padding: 0px 50px;
@@ -18,19 +16,30 @@
     font-size: 24px;
 }
 
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
 #search-bar-footer {
     background-color: #FFEAEA;
     color: #000;
-    width: 700px;
+    min-width: 400px;
     height: 35px;
-    justify-content: center;
-    align-items: center;
-    float: left;
     border-radius: 10px;
 }
 
 .footer-list {
     float: right;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin-right: 10px;
 }
 
 ul {
@@ -51,4 +60,20 @@ a {
     justify-content: center;
     color: #fff;
     font-size: 14px;
+}
+
+#search-button {
+    background: #E46B6B;
+    color: #fff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    #search-bar-footer {
+        max-width: 400px;
+        min-width: 100px;
+    }
+    #nav-container {
+        justify-content: center;
+    }
 }

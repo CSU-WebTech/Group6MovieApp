@@ -14,3 +14,12 @@
     font-size: 1.5rem;
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    .welcome-area[b-edfoh2ohzz] {
+        height: 100px;
+    }
+    .welcome-title[b-edfoh2ohzz] {
+        font-size: 1.3rem;
+    }
+}

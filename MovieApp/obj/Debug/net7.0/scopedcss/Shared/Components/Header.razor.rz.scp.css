@@ -72,4 +72,7 @@ a[b-9rzjob31h4] {
         max-width: 400px;
         min-width: auto;
     }
+    #nav-container[b-9rzjob31h4] {
+        justify-content: center;
+    }
 }

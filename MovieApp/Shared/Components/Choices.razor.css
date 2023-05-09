@@ -8,7 +8,7 @@
     align-items: center;
 }
 
-.mini-boxes {
+.white-boxes {
     display: flex;
     background-color: #fff;
     border-radius: 10px;
@@ -19,7 +19,7 @@
     justify-content: center;
 }
 
-.mini-boxes h3 {
+.white-boxes h3 {
     color: #E46B6B;
     font-size: 30px;
 }
@@ -27,4 +27,17 @@
 a {
     text-decoration: none;
     color: #E46B6B;
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        height: 150px;
+    }
+    .white-boxes {
+        height: 75px;
+        width: 100px;
+    }
+    .white-boxes h3 {
+        font-size: 18px;
+    }
 }
