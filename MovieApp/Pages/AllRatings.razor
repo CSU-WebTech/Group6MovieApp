@@ -4,6 +4,7 @@
 @using MovieApp.Clients;
 @inject MovieClient MovieClient;
 @inject HttpClient httpClient;
+@inject NavigationManager NavigationManager;
 @page "/ratings";
 
 
@@ -16,7 +17,7 @@
         @foreach (var movie in movies.Results) 
         {
             <div class="col-md-2 pb-5">
-                <a href="/movie/@movie.Id"><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
+                <a href="#" @onclick="@(() => { NavigationManager.NavigateTo($"/movie/{@movie.Id}"); })" @onclick:preventDefault><img class="img-fluid rounded" src="@($"https://image.tmdb.org/t/p/w500/{movie.PosterPath}")" alt="@movie.Title" /></a>
                 <div class="row mt-2 justify-content-center" id="star-row">
                     @for (int i = 0; i < (@movie.VoteAverage / 2); i++) 
                     {

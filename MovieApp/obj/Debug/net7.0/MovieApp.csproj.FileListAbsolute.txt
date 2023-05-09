@@ -854,4 +854,4 @@
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/build-gz/sD+OxpK5.gz
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/build-gz/mlEMfj8i.gz
 /workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Shared/Components/FAQ.razor.rz.scp.css
-/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/AllResults.razor.rz.scp.css
+/workspace/Group6MovieApp/MovieApp/obj/Debug/net7.0/scopedcss/Pages/MovieRatings.razor.rz.scp.css

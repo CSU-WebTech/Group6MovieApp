@@ -20,8 +20,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/workspace/Group6MovieApp/MovieApp/Pages/Movies.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzLnJhem9y
+[/workspace/Group6MovieApp/MovieApp/Pages/MoviesHome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVzSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/workspace/Group6MovieApp/MovieApp/_Imports.razor]
@@ -32,10 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxsUmF0aW5ncy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-kjorlugnv4
 
-[/workspace/Group6MovieApp/MovieApp/Pages/AllResults.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxsUmVzdWx0cy5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-t0a40bgbd2
-
 [/workspace/Group6MovieApp/MovieApp/Pages/AllTitles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxsVGl0bGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-v8zvq9mimm
@@ -43,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope = b-v8zvq9mimm
 [/workspace/Group6MovieApp/MovieApp/Pages/Categories.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2F0ZWdvcmllcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-3kbmi6y6ef
+
+[/workspace/Group6MovieApp/MovieApp/Pages/MovieRatings.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTW92aWVSYXRpbmdzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-npugexaf1d
 
 [/workspace/Group6MovieApp/MovieApp/Pages/SearchResults.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VhcmNoUmVzdWx0cy5yYXpvcg==

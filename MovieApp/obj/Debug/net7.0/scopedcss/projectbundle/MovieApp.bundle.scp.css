@@ -15,17 +15,6 @@ a[b-kjorlugnv4] {
     text-decoration: none;
     cursor: pointer;
 }
-/* /Pages/AllResults.razor.rz.scp.css */
-*[b-t0a40bgbd2] {
-    background-color: #4A4949;
-}
-
-h3[b-t0a40bgbd2] {
-    font-family: Inter, sans-serif;
-    color: #FFF;
-    padding: 20px;
-    text-align: center;
-}
 /* /Pages/AllTitles.razor.rz.scp.css */
 
 *[b-v8zvq9mimm] {
@@ -88,6 +77,17 @@ a[b-v8zvq9mimm] {
 a[b-3kbmi6y6ef] {
     text-decoration: none;
     color: #E46B6B;
+}
+/* /Pages/MovieRatings.razor.rz.scp.css */
+*[b-npugexaf1d] {
+    background-color: #4A4949;
+}
+
+h3[b-npugexaf1d] {
+    font-family: Inter, sans-serif;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
 }
 /* /Pages/SearchResults.razor.rz.scp.css */
 h3[b-6xg57j5gms] {
