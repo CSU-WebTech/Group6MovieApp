@@ -26,10 +26,10 @@
 
 @code {
 
-    public string? searchTerm { get; set; }
+    public string searchTerm { get; set; }
 
     private async Task Search() 
     {
-        await Task.Run(() => NavigationManager.NavigateTo($"/search-results/{searchTerm}"));
+       NavigationManager.NavigateTo($"/search-results/{searchTerm}");
     }
 }

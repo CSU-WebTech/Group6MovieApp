@@ -57,10 +57,22 @@ a {
     border-radius: 10px;
 }
 
+#login-button:hover {
+    color: #FFEAEA;
+    background-color: #E46B6B;
+    transition: all 0.3s ease-in;
+}
+
 #search-button {
     background: #E46B6B;
     color: #fff;
     border-radius: 10px;
+}
+
+#search-button:hover {
+    color: #E46B6B;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
 }
 
 

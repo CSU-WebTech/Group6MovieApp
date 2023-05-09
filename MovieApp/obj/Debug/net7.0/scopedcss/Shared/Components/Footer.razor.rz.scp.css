@@ -68,6 +68,12 @@ a[b-6y9f5w9828] {
     border-radius: 10px;
 }
 
+#search-button:hover[b-6y9f5w9828] {
+    color: #E46B6B;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+
 @media screen and (max-width: 800px) {
     #search-bar-footer[b-6y9f5w9828] {
         max-width: 400px;

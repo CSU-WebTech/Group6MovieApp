@@ -54,11 +54,11 @@ a[b-v8zvq9mimm] {
     background-color: #E46B6B;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.mini-boxes[b-3kbmi6y6ef] {
+.white-boxes[b-3kbmi6y6ef] {
     display: flex;
     background-color: #fff;
     border-radius: 10px;
@@ -69,7 +69,7 @@ a[b-v8zvq9mimm] {
     justify-content: center;
 }
 
-.mini-boxes h3[b-3kbmi6y6ef] {
+white-boxes h3[b-3kbmi6y6ef] {
     color: #E46B6B;
     font-size: 30px;
 }
@@ -77,6 +77,25 @@ a[b-v8zvq9mimm] {
 a[b-3kbmi6y6ef] {
     text-decoration: none;
     color: #E46B6B;
+}
+
+@media screen and (max-width: 800px) {
+    #container[b-3kbmi6y6ef] {
+        height: 150px;
+    }
+    .white-boxes[b-3kbmi6y6ef] {
+        height: 75px;
+        width: 100px;
+    }
+    .white-boxes h3[b-3kbmi6y6ef] {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    .white-boxes[b-3kbmi6y6ef] {
+        width: 200px;
+    }
 }
 /* /Pages/DramaPage.razor.rz.scp.css */
 
@@ -178,13 +197,20 @@ h4[b-3dpwefubni]{
 }
 
 .white-boxes h3[b-w2akfzxjxd] {
-    color: #E46B6B;
+    color: inherit;
     font-size: 30px;
 }
 
 a[b-w2akfzxjxd] {
     text-decoration: none;
     color: #E46B6B;
+}
+
+.white-boxes:hover[b-w2akfzxjxd] {
+    color: #fff;
+    background-color: #E46B6B;
+    transition: all 0.3s ease-in;
+    border: 4px solid #fff;
 }
 
 @media screen and (max-width: 800px) {
@@ -378,6 +404,12 @@ a[b-6y9f5w9828] {
     border-radius: 10px;
 }
 
+#search-button:hover[b-6y9f5w9828] {
+    color: #E46B6B;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+
 @media screen and (max-width: 800px) {
     #search-bar-footer[b-6y9f5w9828] {
         max-width: 400px;
@@ -447,10 +479,22 @@ a[b-9rzjob31h4] {
     border-radius: 10px;
 }
 
+#login-button:hover[b-9rzjob31h4] {
+    color: #FFEAEA;
+    background-color: #E46B6B;
+    transition: all 0.3s ease-in;
+}
+
 #search-button[b-9rzjob31h4] {
     background: #E46B6B;
     color: #fff;
     border-radius: 10px;
+}
+
+#search-button:hover[b-9rzjob31h4] {
+    color: #E46B6B;
+    background-color: #fff;
+    transition: all 0.3s ease-in;
 }
 
 
