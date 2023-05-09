@@ -70,7 +70,7 @@ a[b-9rzjob31h4] {
     }
     #search-bar-header[b-9rzjob31h4] {
         max-width: 400px;
-        min-width: auto;
+        min-width: 100px;
     }
     #nav-container[b-9rzjob31h4] {
         justify-content: center;

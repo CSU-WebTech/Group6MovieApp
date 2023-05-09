@@ -71,7 +71,7 @@ a[b-6y9f5w9828] {
 @media screen and (max-width: 800px) {
     #search-bar-footer[b-6y9f5w9828] {
         max-width: 400px;
-        min-width: auto;
+        min-width: 100px;
     }
     #nav-container[b-6y9f5w9828] {
         justify-content: center;
