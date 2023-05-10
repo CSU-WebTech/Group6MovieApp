@@ -15,3 +15,12 @@ a[b-7negb51xz6] {
     text-decoration: none;
     cursor: pointer;
 }
+
+.img-mm[b-7negb51xz6] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-7negb51xz6] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}

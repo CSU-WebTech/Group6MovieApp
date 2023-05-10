@@ -139,6 +139,14 @@ a[b-gxj75euzx4] {
     cursor: pointer;
 }
 
+.img-mm[b-gxj75euzx4] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-gxj75euzx4] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
 /* /Pages/KidsPage.razor.rz.scp.css */
 
 *[b-dqwqxo95kr] {
@@ -157,6 +165,14 @@ a[b-dqwqxo95kr] {
     cursor: pointer;
 }
 
+.img-mm[b-dqwqxo95kr] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-dqwqxo95kr] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
 /* /Pages/ThrillerPage.razor.rz.scp.css */
 
 *[b-5h6irzjfq2] {
@@ -175,6 +191,14 @@ a[b-5h6irzjfq2] {
     cursor: pointer;
 }
 
+.img-mm[b-5h6irzjfq2] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-5h6irzjfq2] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
+}
 /* /Shared/Components/AboutUs.razor.rz.scp.css */
 
 *[b-3dpwefubni] {
@@ -725,6 +749,15 @@ h3[b-7negb51xz6] {
 a[b-7negb51xz6] {
     text-decoration: none;
     cursor: pointer;
+}
+
+.img-mm[b-7negb51xz6] {
+    opacity: 0.75;
+}
+
+.img-mm:hover[b-7negb51xz6] {
+    opacity: 1;
+    transition: all 0.3s ease-in;
 }
 /* /Shared/Components/Thriller.razor.rz.scp.css */
 
